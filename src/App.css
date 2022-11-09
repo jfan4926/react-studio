@@ -4,6 +4,38 @@
 
 }
 
-.BakeryItem {
-  
+.BakeryItem items{
+  display: flex;
+  padding: 20px;
+}
+
+.bakeryItems{
+    display: flexbox;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.bakeryItems img{
+    display: flex;
+    width:30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.cart{
+    padding: 0 1rem;
+    width: 30%;
+    background-color: beige;
+}
+div{
+    display: block;
+}
+h1{
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 10px;
 }
